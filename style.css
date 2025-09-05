@@ -1,0 +1,61 @@
+/* RESET CSS */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+    background-color: #153038;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+   font-size: 128px;
+   font-family:  monospace;
+   font-weight: 500;
+   color: #F0F8FF;
+}
+
+h2{
+    font-size: 48px;
+    font-family: monospace;
+    font-weight: 100;
+    text-align: center;
+    color:  #F0F8FF;
+}
+
+.galeria{
+  display: grid;
+  justify-content: center;
+  gap: 64px;
+  margin-top: 64px;
+  flex-direction: column;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.hyper{
+height: 250px;
+width:  100%;
+display: block;
+object-fit: contain;
+object-fit: cover;
+border: 4px solid #ffffff;
+filter: invert(3px);
+transition: 1s;
+}
+
+.legenda{
+color: #ffffff;
+text-align: center;
+font-family: 'Courier New', Courier, monospace;
+
+
+
+}
+
+
