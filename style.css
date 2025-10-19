@@ -8,21 +8,21 @@
 
 body{
     background-color: #0051ca;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 h1{
-   font-size: 128px;
+   font-size: 85px;
    font-family:  monospace;
    font-weight: 500;
    color: #F0F8FF;
 }
 
 h2{
-    font-size: 48px;
+    font-size: 40px;
     font-family: monospace;
     font-weight: 100;
     text-align: center;
